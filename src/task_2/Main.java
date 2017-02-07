@@ -6,12 +6,12 @@
 package task_2;
 
 /**
- *  NIM = .............................................
- *  Nama = .............................................
+ *  NIM = 1301150035
+ *  Nama = Kukuh Rahingga Permadi
  */
 public class Main {
 
-    /**
+    /**-
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -23,6 +23,7 @@ public class Main {
         m1.addNilai('D');
         m1.addNilai('B');
         m1.addNilai('D');
+     
         System.out.println(m1);
         // akan mengoutputkan tulisan: 001, Budi, Tidak Lulus, Nilai = C,D,B,D,
         System.out.println(m1.getNilai(2));
@@ -35,12 +36,15 @@ public class Main {
         m2.addNilai('C');
         m2.addNilai('B');
         m2.setStatus("Lulus");
+        
         System.out.println(m2);
         // akan mengoutputkan tulisan: 002, Eka, Lulus, Nilai = A,B,E,C,B,
 
         // output kode berikut harus menghasilkan nilai yang sama yaitu=B
         char h1 = m1.cekNilai(m2);
         char h2 = m2.cekNilai(m1);
+        
+        
         System.out.println("hasil = " + h1 + ", " + h2);
 
     }
